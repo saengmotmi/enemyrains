@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 95vh;
+    align-items: center;
+}
+
+#bg {
+    background-image: url("./images/bg.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    position: relative;
+    width: 800px;
+    height: 600px;
+    z-index: -1;
+}
+
+#hero {
+    position: absolute;
+    bottom: 0;
+    background-image: url("./images/hero.png");
+    width: 35px;
+    height: 54px;
+}
+
+.front-face {
+    background-position-x: 0px;
+}
+
+.left-face {
+    background-position-x: 70px;
+}
+
+.right-face {
+    background-position-x: 35px;
+}
+
+.ghost-down {
+    background-image: url("./images/enemy.png");
+    width: 45px;
+    height: 54px;
+    background-position-x: 0px;
+    position: absolute;
+}
+
+#ghost-dead {
+    background-image: url("./images/enemy.png");
+    width: 45px;
+    height: 54px;
+    background-position-x: 45px;
+    position: absolute;
+}
