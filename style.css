@@ -43,10 +43,20 @@ body {
     position: absolute;
 }
 
-#ghost-dead {
+.ghost-dead {
     background-image: url("./images/enemy.png");
     width: 45px;
     height: 54px;
     background-position-x: 45px;
     position: absolute;
+}
+
+#score-board {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
 }
