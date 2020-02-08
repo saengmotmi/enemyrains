@@ -1,4 +1,4 @@
-const bg = document.getElementById('bg');
+const bg = document.getElementById('bg'); //없어도 작동함 -> html에 부여된 id가 전역변수처럼(?) 작동해서
 const ghostStep = 3; //픽셀
 const ghostStepInterval = 20; //밀리세컨드
 const ghostGenerateInterval = 1000; //밀리세컨드
